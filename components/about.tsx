@@ -28,9 +28,7 @@ export default function About() {
           React, Next.js, and Node.js 
         </span>
         . I am also familiar with Java (Springboot). I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        learn new technologies.
       </p>
 
       <p>

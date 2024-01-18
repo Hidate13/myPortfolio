@@ -3,6 +3,12 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import MarryMealImg from "@/public/MarryMeal.png";
 import DobuImg from "@/public/Dobu.png";
+import HTML from "@/public/icon/html.png";
+import CSS from "@/public/icon/css.png";
+import NodeIC from "@/public/icon/node.png";
+import SpringBIC from "@/public/icon/springboot.png";
+import TailWiC from "@/public/icon/tailwind.png";
+import REactIC from "@/public/icon/react.png";
 
 export const links = [
   {
@@ -76,15 +82,10 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Framer Motion",
-  "Spring Boot"
+  {name :"HTML", icon: HTML},
+  {name :"CSS", icon: CSS},
+  {name :"React", icon: REactIC},
+  {name :"Node.js", icon: NodeIC},
+  {name :"Tailwind", icon: TailWiC},
+  {name :"Spring Boot", icon: SpringBIC}
 ] as const;
