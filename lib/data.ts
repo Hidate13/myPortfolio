@@ -42,8 +42,8 @@ export const experiencesData = [
     date: "2021 - 2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Lithan's Learner",
+    location: "11 Eunos Rd 8, Singapore",
     description:
       "I decided to switch careers in 2023 by taking courses and programs from Lithan, where I can create several applications while I am undergoing bootcamp training.",
     icon: React.createElement(FaReact),
