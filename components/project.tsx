@@ -4,6 +4,7 @@ import { useRef } from "react";
 import { projectsData } from "@/lib/data";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
+import { HiDownload } from "react-icons/hi";
 
 type ProjectProps = (typeof projectsData)[number];
 
@@ -12,6 +13,7 @@ export default function Project({
   description,
   tags,
   imageUrl,
+  projLink
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -46,6 +48,17 @@ export default function Project({
               </li>
             ))}
           </ul>
+          <br />
+          <div className="px-8 text-sm">
+            <a
+              className="group bg-white wird justify-center px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
+              href={projLink}
+              download
+            >
+              Download{" "}
+              <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
+            </a>
+          </div>
         </div>
 
         <Image

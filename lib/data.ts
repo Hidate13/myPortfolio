@@ -64,6 +64,7 @@ export const projectsData = [
       "When I joined the bootcamp training program, I created a meal on wheel program called Marry Meal",
     tags: ["React", "Next.js", "Spring Boot"],
     imageUrl: MarryMealImg,
+    projLink: "https://github.com/Hidate13/marrymeal",
   },
   {
     title: "Dobu Martial Art",
@@ -71,6 +72,7 @@ export const projectsData = [
       "Dobu Martial Art is a website to manage Registration, Training, and competiotion. I was the front-end developer. It has features like filtering.",
     tags: ["HTML", "Javascript", "CSS"],
     imageUrl: DobuImg,
+    projLink: "https://github.com/Hidate13/dobu",
   },
   /* {
     title: "Dobu Martial Art",
