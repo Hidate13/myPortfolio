@@ -63,7 +63,7 @@ export default function Intro() {
           />
         </span>{" "}
         I'm a <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">a year</span> of experience.i enjoy developing with{" "} 
+        <span className="font-bold">a year</span> of experience.{" "}i enjoy developing with{" "} 
         <span className="font-bold"> Next.js</span>.
       </motion.h1>
 

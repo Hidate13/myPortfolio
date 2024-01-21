@@ -28,13 +28,12 @@ export default function About() {
           React, Next.js, and Node.js 
         </span>
         . I am also familiar with Java (Springboot). I am always looking to
-        learn new technologies.
+        learn new things.
       </p>
 
       <p>
         <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games and watching movies. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. 
+        video games and watching movies. 
       </p>
     </motion.section>
   );
