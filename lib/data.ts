@@ -32,6 +32,10 @@ export const links = [
     hash: "#experience",
   },
   {
+    name: "Education",
+    hash: "#education",
+  },
+  {
     name: "Contact",
     hash: "#contact",
   },
@@ -40,7 +44,7 @@ export const links = [
 export const experiencesData = [
 
   {
-    title: "Courier",
+    title: "Courier Delivery Boy",
     location: "Surabaya, Indonesia",
     description:
       "I worked as a courier for a year and a half to deliver packages for one of the large expedition companies in Indonesia.",
@@ -54,6 +58,31 @@ export const experiencesData = [
       "I decided to switch careers in 2023 by taking courses and programs from Lithan, where I can create several applications while I am undergoing boot camp training.",
     icon: React.createElement(FaReact),
     date: "2023 - present",
+  },
+] as const;
+
+export const educationData = [
+
+  {
+    title: "SD Al-Khairiyah II ",
+    location: "Surabaya, Indonesia",
+    description:  "Elementary School",
+    icon: React.createElement(FaReact),
+    date: "1998 - 2004",
+  },
+  {
+    title: "SMP Negeri 8 Surabaya",
+    location: "Surabaya, Indonesia",
+    description:"Junior High School",
+    icon: React.createElement(FaReact),
+    date: "2004 - 2007",
+  },
+  {
+    title: "MAN Amlapura ",
+    location: "Bali, Indonesia",
+    description:"Senior High School",
+    icon: React.createElement(FaReact),
+    date: "2007 - 2010 ",
   },
 ] as const;
 
