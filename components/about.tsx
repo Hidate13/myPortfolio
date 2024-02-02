@@ -18,6 +18,11 @@ export default function About() {
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
+      <br/>
+        <div className="flex justify-center">
+        <iframe src="https://drive.google.com/file/d/1MXJYwwGTHYXwXEihu6Sh_AyaiVqKpBQV/preview" width="440" height="240" allow="autoplay"></iframe>
+      </div>
+      <br/>
       <p className="mb-3">
         I decided to pursue my passion for programming. 
         I enrolled in a coding bootcamp and learned{" "}
