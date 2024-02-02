@@ -43,20 +43,20 @@ export const links = [
 
 export const experiencesData = [
 
-  {
+/*   {
     title: "Courier Delivery Boy",
     location: "Surabaya, Indonesia",
     description:
       "I worked as a courier for a year and a half to deliver packages for one of the large expedition companies in Indonesia.",
     icon: React.createElement(CgWorkAlt),
     date: "2021 - 2023",
-  },
+  }, */
   {
     title: "Lithan's Learner",
     location: "11 Eunos Rd 8, Singapore",
     description:
       "I decided to switch careers in 2023 by taking courses and programs from Lithan, where I can create several applications while I am undergoing boot camp training.",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(CgWorkAlt),
     date: "2023 - present",
   },
 ] as const;
@@ -80,7 +80,7 @@ export const educationData = [
   {
     title: "MAN Amlapura ",
     location: "Bali, Indonesia",
-    description:"Senior High School",
+    description:"During my high school years, my academic focus revolved around science, where I engaged enthusiastically in various scientific subjects and activities.",
     icon: React.createElement(FaReact),
     date: "2007 - 2010 ",
   },

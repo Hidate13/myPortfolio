@@ -32,8 +32,7 @@ export default function About() {
         <span className="font-medium">
           React, Next.js, and Node.js 
         </span>
-        . I am also familiar with Java (Springboot). I am always looking to
-        learn new things.
+        . I am also familiar with Java (Springboot). I am highly motivated and eager to learn new things
       </p>
 
       <p>
