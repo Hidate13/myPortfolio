@@ -24,21 +24,19 @@ export default function About() {
       </div>
       <br/>
       <p className="mb-3">
-        I decided to pursue my passion for programming. 
-        I enrolled in a coding bootcamp and learned{" "}
+        I committed to pursuing my passion for programming, embarking on a coding bootcamp journey to maste{" "}
         <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. My core stack is{" "}
+        I find particular enjoyment in<span className="italic"> the problem-solving facets of programming.</span> My core stack is{" "}
         <span className="font-medium">
           React, Next.js, and Node.js 
         </span>
-        . I am also familiar with Java (Springboot). I am highly motivated and eager to learn new things
+        . with additional proficiency in Java (Springboot). as I am highly motivated to expand my knowledge base
       </p>
 
       <p>
         <span className="italic">When I'm not coding</span>, I enjoy playing
         video games and watching movies. 
-        <span className="italic">I like to watch tutorial videos on YouTube about coding or programming</span>
+        <span className="italic"> I like to watch tutorial videos on YouTube about coding or programming</span>
         . That is my reference for being able to solve coding problems that I might face in the future.
       </p>
     </motion.section>

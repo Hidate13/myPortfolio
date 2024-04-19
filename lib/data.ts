@@ -4,6 +4,7 @@ import { FaReact } from "react-icons/fa";
 import MarryMealImg from "@/public/MarryMeal.png";
 import DobuImg from "@/public/Dobu.png";
 import HTML from "@/public/icon/html.png";
+import Aceadora from "@/public/Aceadora.png"
 import CSS from "@/public/icon/css.png";
 import NodeIC from "@/public/icon/node.png";
 import SpringBIC from "@/public/icon/springboot.png";
@@ -27,10 +28,10 @@ export const links = [
     name: "Skills",
     hash: "#skills",
   },
-  {
-    name: "Experience",
-    hash: "#experience",
-  },
+  // {
+  //   name: "Experience",
+  //   hash: "#experience",
+  // },
   {
     name: "Education",
     hash: "#education",
@@ -84,6 +85,14 @@ export const educationData = [
     icon: React.createElement(FaReact),
     date: "2007 - 2010 ",
   },
+  {
+    title: "Lithan's Learner",
+    location: "11 Eunos Rd 8, Singapore",
+    description:
+      "I decided to switch careers in 2023 by taking courses and programs from Lithan, where I can create several applications while I am undergoing boot camp training.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2023 - present",
+  },
 ] as const;
 
 export const projectsData = [
@@ -103,13 +112,14 @@ export const projectsData = [
     imageUrl: DobuImg,
     projLink: "https://github.com/Hidate13/dobu",
   },
-  /* {
-    title: "Dobu Martial Art",
+   {
+    title: "Jumpstart Aceadora",
     description:
-      "Dobu Martial Art is a website to manage Registration, Training, and competiotion. I was the front-end developer. It has features like filtering.",
-    tags: ["HTML", "Javascript", "CSS"],
-    imageUrl: DobuImg,
-  }, */
+      "Jumpstart Aceadora is a website to manage Registration and Content Management System. I was the full stack developer. It has features like Add to cart items.",
+    tags: ["HTML", "Javascript", "CSS", "Spring Boot"],
+    imageUrl: Aceadora,
+    projLink: "https://github.com/Hidate13/CPL-Source-Code-E-Commerce",
+  }, 
 ] as const;
 
 export const skillsData = [
@@ -119,4 +129,13 @@ export const skillsData = [
   {name :"Node.js", icon: NodeIC},
   {name :"Tailwind", icon: TailWiC},
   {name :"Spring Boot", icon: SpringBIC}
+] as const;
+
+export const softSkillsData = [
+  {name :"Research", icon: HTML},
+  {name :"Problem Solving", icon: CSS},
+  {name :"Reading", icon: REactIC},
+  {name :"Programming", icon: NodeIC},
+  {name :"Movie", icon: TailWiC},
+  {name :"Designing", icon: SpringBIC}
 ] as const;

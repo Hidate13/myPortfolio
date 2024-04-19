@@ -13,3 +13,17 @@ html.dark {
 .borderBlack {
   @apply border border-black/10;
 }
+
+.image-detail {
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.image-detail:hover{
+  cursor: pointer;
+  color: black;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(85, 0, 255);
+}
+
