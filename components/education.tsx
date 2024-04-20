@@ -60,7 +60,9 @@ export default function Education() {
               }}
             >
               <h3 className="font-semibold capitalize">{item.title}</h3>
-               {item.logo && <Image  src={item.logo} alt={item.title}  width={277} height={45}/>}
+              <div className="flex justify-center py-4">
+                  {item.logo && <Image  src={item.logo} alt={item.title}  width={221} height={36}/>}
+              </div>
               <p className="font-normal !mt-0">{item.location}</p>
               <ul className="!mt-1 !font-normal text-gray-700 dark:text-white/75 list-disc pl-5">
                 {item.description.split('\n').map((line, index) => (
