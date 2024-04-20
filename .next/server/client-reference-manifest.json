@@ -40,25 +40,17 @@
         "async": false
       }
     },
+    "(app-client)/./components/about.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/about.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
     "(app-client)/./components/contact.tsx": {
       "*": {
         "id": "(sc_client)/./components/contact.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./components/skills.tsx": {
-      "*": {
-        "id": "(sc_client)/./components/skills.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./components/section-divider.tsx": {
-      "*": {
-        "id": "(sc_client)/./components/section-divider.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -80,17 +72,25 @@
         "async": false
       }
     },
-    "(app-client)/./components/about.tsx": {
+    "(app-client)/./components/projects.tsx": {
       "*": {
-        "id": "(sc_client)/./components/about.tsx",
+        "id": "(sc_client)/./components/projects.tsx",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./components/projects.tsx": {
+    "(app-client)/./components/section-divider.tsx": {
       "*": {
-        "id": "(sc_client)/./components/projects.tsx",
+        "id": "(sc_client)/./components/section-divider.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./components/skills.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/skills.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -219,24 +219,16 @@
       ],
       "async": false
     },
+    "E:\\Work\\website\\MY LANDING\\My_Portofolio_neo\\myportfolio\\components\\about.tsx": {
+      "id": "(app-client)/./components/about.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
     "E:\\Work\\website\\MY LANDING\\My_Portofolio_neo\\myportfolio\\components\\contact.tsx": {
       "id": "(app-client)/./components/contact.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "E:\\Work\\website\\MY LANDING\\My_Portofolio_neo\\myportfolio\\components\\skills.tsx": {
-      "id": "(app-client)/./components/skills.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "E:\\Work\\website\\MY LANDING\\My_Portofolio_neo\\myportfolio\\components\\section-divider.tsx": {
-      "id": "(app-client)/./components/section-divider.tsx",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
@@ -259,16 +251,24 @@
       ],
       "async": false
     },
-    "E:\\Work\\website\\MY LANDING\\My_Portofolio_neo\\myportfolio\\components\\about.tsx": {
-      "id": "(app-client)/./components/about.tsx",
+    "E:\\Work\\website\\MY LANDING\\My_Portofolio_neo\\myportfolio\\components\\projects.tsx": {
+      "id": "(app-client)/./components/projects.tsx",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "E:\\Work\\website\\MY LANDING\\My_Portofolio_neo\\myportfolio\\components\\projects.tsx": {
-      "id": "(app-client)/./components/projects.tsx",
+    "E:\\Work\\website\\MY LANDING\\My_Portofolio_neo\\myportfolio\\components\\section-divider.tsx": {
+      "id": "(app-client)/./components/section-divider.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "E:\\Work\\website\\MY LANDING\\My_Portofolio_neo\\myportfolio\\components\\skills.tsx": {
+      "id": "(app-client)/./components/skills.tsx",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"

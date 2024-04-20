@@ -15,6 +15,20 @@ export default function Education() {
   const { ref } = useSectionInView("Education");
   const { theme } = useTheme();
 
+  function processDescriptionLine(line: string) {
+    // Split the line into segments based on "**"
+    const segments = line.split(/(\*\*[^*]+\*\*)/g).map((seg, index) => {
+      // Check if the segment is meant to be bold (wrapped in **)
+      if (seg.startsWith('**') && seg.endsWith('**')) {
+        // Remove the ** and return a <strong> element
+        return <strong key={index}>{seg.slice(2, -2)}</strong>;
+      }
+      // Return the segment as is for non-bold text
+      return seg;
+    });
+  
+    return <p>{segments}</p>;
+  }
   return (
     <section id="education" ref={ref} className="scroll-mt-28 mb-28 w-9/12">
       <SectionHeading>My Education</SectionHeading>
@@ -48,7 +62,7 @@ export default function Education() {
               <p className="font-normal !mt-0">{item.location}</p>
               <ul className="!mt-1 !font-normal text-gray-700 dark:text-white/75 list-disc pl-5">
                 {item.description.split('\n').map((line, index) => (
-                  <li key={index}>{line}</li>
+                  <li key={index}>{processDescriptionLine(line)}</li>
                 ))}
               </ul>
             </VerticalTimelineElement>

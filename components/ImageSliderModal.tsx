@@ -66,19 +66,19 @@ const ImageSliderModal: React.FC<ImageSliderModalProps> = ({
     { url: "http://localhost:3000/projectImages/aceadora/image-4.jpg", title: "Product Management" },
     { url: "http://localhost:3000/projectImages/aceadora/image-5.jpg", title: "Profile" },
   ];
-  const pixelPerfect = [
-    { url: "http://localhost:3000/projectImages/pixelPerfect/image-1.jpg", title: "Home" },
-    { url: "http://localhost:3000/projectImages/pixelPerfect/image-2.jpg", title: "Gallery" },
-    { url: "http://localhost:3000/projectImages/pixelPerfect/image-3.jpg", title: "Services" },
-    { url: "http://localhost:3000/projectImages/pixelPerfect/image-4.jpg", title: "Contact" },
-    { url: "http://localhost:3000/projectImages/pixelPerfect/image-5.jpg", title: "About" },
+  const manzanaque = [
+    { url: "http://localhost:3000/projectImages/manzanaque/image-1.jpg", title: "Home" },
+    { url: "http://localhost:3000/projectImages/manzanaque/image-2.jpg", title: "Call Record" },
+    { url: "http://localhost:3000/projectImages/manzanaque/image-3.jpg", title: "Create Ticket" },
+    { url: "http://localhost:3000/projectImages/manzanaque/image-4.jpg", title: "Login" },
+    { url: "http://localhost:3000/projectImages/manzanaque/image-5.jpg", title: "Registration" },
   ];
 
   const selectSlides = () => {
     if (imageSetName?.includes("MarryMeal")) return marrymeal;
     else if (imageSetName?.includes("Dobu")) return dobu;
     else if (imageSetName?.includes("Aceadora")) return aceadora;
-    else if (imageSetName?.includes("PixelPerfect")) return pixelPerfect;
+    else if (imageSetName?.includes("Manzanaque")) return manzanaque;
     else return [];
   };
 
