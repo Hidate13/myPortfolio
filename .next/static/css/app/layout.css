@@ -640,6 +640,9 @@ video {
 .mb-8 {
   margin-bottom: 2rem;
 }
+.ml-40 {
+  margin-left: 10rem;
+}
 .mt-10 {
   margin-top: 2.5rem;
 }
@@ -721,12 +724,6 @@ video {
 .w-full {
   width: 100%;
 }
-.w-10\/12 {
-  width: 83.333333%;
-}
-.w-5\/12 {
-  width: 41.666667%;
-}
 .max-w-\[42rem\] {
   max-width: 42rem;
 }
@@ -763,6 +760,9 @@ video {
 }
 .scroll-mt-\[100rem\] {
   scroll-margin-top: 100rem;
+}
+.list-inside {
+  list-style-position: inside;
 }
 .list-disc {
   list-style-type: disc;
@@ -925,6 +925,9 @@ video {
 }
 .pt-4 {
   padding-top: 1rem;
+}
+.text-left {
+  text-align: left;
 }
 .text-center {
   text-align: center;

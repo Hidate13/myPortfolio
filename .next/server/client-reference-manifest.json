@@ -48,14 +48,6 @@
         "async": false
       }
     },
-    "(app-client)/./components/contact.tsx": {
-      "*": {
-        "id": "(sc_client)/./components/contact.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
     "(app-client)/./components/education.tsx": {
       "*": {
         "id": "(sc_client)/./components/education.tsx",
@@ -91,6 +83,14 @@
     "(app-client)/./components/skills.tsx": {
       "*": {
         "id": "(sc_client)/./components/skills.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./components/contact.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/contact.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -227,14 +227,6 @@
       ],
       "async": false
     },
-    "E:\\Work\\website\\MY LANDING\\My_Portofolio_neo\\myportfolio\\components\\contact.tsx": {
-      "id": "(app-client)/./components/contact.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
     "E:\\Work\\website\\MY LANDING\\My_Portofolio_neo\\myportfolio\\components\\education.tsx": {
       "id": "(app-client)/./components/education.tsx",
       "name": "*",
@@ -269,6 +261,14 @@
     },
     "E:\\Work\\website\\MY LANDING\\My_Portofolio_neo\\myportfolio\\components\\skills.tsx": {
       "id": "(app-client)/./components/skills.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "E:\\Work\\website\\MY LANDING\\My_Portofolio_neo\\myportfolio\\components\\contact.tsx": {
+      "id": "(app-client)/./components/contact.tsx",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
