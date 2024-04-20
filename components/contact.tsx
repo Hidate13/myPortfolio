@@ -37,7 +37,7 @@ export default function Contact() {
           <li>Full Name: WAHYU HIDAYAT</li>
           <li>Email Address: <a className="underline" href="mailto:wahyu.hidate.hidayat@gmail.com">wahyu.hidate.hidayat@gmail.com</a></li>
           <li>WA Number: <a className="underline" href="https://wa.me/6283111188502">+6283111188502</a></li>
-          <li>LinkedIn Profile: <a className="underline" href="https://www.linkedin.com/in/wahyu-hidayat-1a7258274/">How to find your link in LinkedIn</a></li>
+          <li>LinkedIn Profile: <a className="underline" href="https://www.linkedin.com/in/wahyu-hidayat-1a7258274/">Wahyu Hidayat in LinkedIn</a></li>
           <li>Location:  INDONESIA – SURABAYA CITY</li>
         </ul >
         <br></br>
