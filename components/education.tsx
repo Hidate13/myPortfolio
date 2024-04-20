@@ -10,6 +10,7 @@ import "react-vertical-timeline-component/style.min.css";
 import { educationData } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
 import { useTheme } from "@/context/theme-context";
+import Image from 'next/image';
 
 export default function Education() {
   const { ref } = useSectionInView("Education");
@@ -59,6 +60,7 @@ export default function Education() {
               }}
             >
               <h3 className="font-semibold capitalize">{item.title}</h3>
+               {item.logo && <Image  src={item.logo} alt={item.title}  width={277} height={45}/>}
               <p className="font-normal !mt-0">{item.location}</p>
               <ul className="!mt-1 !font-normal text-gray-700 dark:text-white/75 list-disc pl-5">
                 {item.description.split('\n').map((line, index) => (

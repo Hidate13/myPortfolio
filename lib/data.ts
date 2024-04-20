@@ -7,6 +7,7 @@ import HTML from "@/public/icon/html.png";
 import Aceadora from "@/public/Aceadora.png";
 import Manzanaque from "@/public/Manzanaque.png";
 import CSS from "@/public/icon/css.png";
+import lithanLogo from "@/public/icon/lithanLong.png";
 import NodeIC from "@/public/icon/node.png";
 import SpringBIC from "@/public/icon/springboot.png";
 import TailWiC from "@/public/icon/tailwind.png";
@@ -65,6 +66,7 @@ export const experiencesData = [
 export const educationData = [
   {
     title: "SD Al-Khairiyah II ",
+    logo :"",
     location: "Surabaya, Indonesia",
     description: "Elementary School",
     icon: React.createElement(FaReact),
@@ -72,6 +74,7 @@ export const educationData = [
   },
   {
     title: "SMP Negeri 8 Surabaya",
+    logo :"",
     location: "Surabaya, Indonesia",
     description: "Junior High School",
     icon: React.createElement(FaReact),
@@ -79,6 +82,7 @@ export const educationData = [
   },
   {
     title: "MAN Amlapura ",
+    logo :"",
     location: "Bali, Indonesia",
     description:
       "During my high school years, my academic focus revolved around science, where I engaged enthusiastically in various scientific subjects and activities.",
@@ -86,7 +90,8 @@ export const educationData = [
     date: "2007 - 2010 ",
   },
   {
-    title: "Lithan's Learner",
+    title: "Lithan Academy",
+    logo: lithanLogo,
     location: "11 Eunos Rd 8, Singapore",
     description:
       "I decided to switch careers in 2023 by taking courses **(Bootcamp)** and **(Bachelor's Degree)** programs from Lithan as **a full stack developer**.\n where I can create several applications while I am undergoing boot camp training.",
