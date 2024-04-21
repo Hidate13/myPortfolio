@@ -26,21 +26,21 @@ export const links = [
     hash: "#about",
   },
   {
-    name: "Projects",
-    hash: "#projects",
-  },
-  {
     name: "Skills",
     hash: "#skills",
+  },
+  {
+    name: "Education",
+    hash: "#education",
+  },
+  {
+    name: "Projects",
+    hash: "#projects",
   },
   // {
   //   name: "Experience",
   //   hash: "#experience",
   // },
-  {
-    name: "Education",
-    hash: "#education",
-  },
   {
     name: "Contact",
     hash: "#contact",
@@ -67,7 +67,7 @@ export const experiencesData = [
 ] as const;
 
 export const educationData = [
-  {
+  /* {
     title: "SD Al-Khairiyah II ",
     logo : sdAlKhairiyah,
     location: "Surabaya, Indonesia",
@@ -82,7 +82,7 @@ export const educationData = [
     description: "Junior High School",
     icon: React.createElement(FaReact),
     date: "2004 - 2007",
-  },
+  }, */
   {
     title: "MAN Amlapura ",
     logo :manLogo,

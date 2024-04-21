@@ -15,9 +15,7 @@ html.dark {
 }
 
 .image-detail {
-  color: white;
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
 }
 
 .image-detail:hover{
@@ -27,3 +25,10 @@ html.dark {
   -webkit-text-stroke-color: rgb(85, 0, 255);
 }
 
+.icon {
+  font-size: 1.2em;
+  margin-right: 0.5em;
+  color: #18d26e; /* Adjust color as needed */
+  text-shadow: rgb(255, 255, 255) 1px 0 5px; /* Add text shadow for stylish effect */
+  font-weight: 900;
+}
