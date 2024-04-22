@@ -62,7 +62,7 @@ export default function Intro() {
             }}
           />
         </span>{" "}
-        I Experienced <span className="font-bold">Full-Stack Developer</span> Specializing{""} in <span className="font-bold">Next.js</span> Development.
+        Experienced <span className="font-bold">Full-Stack Developer</span> Specializing{""} in <span className="font-bold">Next.js</span> Development.
       </motion.h1>
 
       <motion.div
