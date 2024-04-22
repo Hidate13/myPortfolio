@@ -60,7 +60,7 @@ export default function About() {
             {" "}
             the problem-solving facets of programming.
           </span>{" "}
-          My core stack is{" "}
+          My primary stack includes{" "}
           <span className="font-medium">React, Next.js, and Node.js</span>. with
           additional proficiency in Java (Springboot). as I am highly motivated to
           expand my knowledge base
