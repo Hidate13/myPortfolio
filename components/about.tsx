@@ -21,10 +21,11 @@ export default function About() {
       <br />
       <div className="flex justify-center">
         <iframe
-          src="https://drive.google.com/file/d/1MXJYwwGTHYXwXEihu6Sh_AyaiVqKpBQV/preview"
-          width="440"
-          height="240"
-          allow="autoplay"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/RSPOFI-8dbQ?si=N8qAldU9Jx8oYBio"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         ></iframe>
       </div>
       <br />
@@ -48,36 +49,37 @@ export default function About() {
           <span className="icon">✔</span> City: Surabaya City, INDONESIA
         </div>
       </div>
-      <hr/>
-      <br/>
+      <hr />
+      <br />
       <div className="flex justify-between text-justify">
         <p className="mb-3">
           I committed to pursuing my passion for programming, embarking on a
           coding bootcamp journey to maste{" "}
-          <span className="font-medium">full-stack web development</span>. I find
-          particular enjoyment in
+          <span className="font-medium">full-stack web development</span>. I
+          find particular enjoyment in
           <span className="italic">
             {" "}
             the problem-solving facets of programming.
           </span>{" "}
           My primary stack includes{" "}
           <span className="font-medium">React, Next.js, and Node.js</span>. with
-          additional proficiency in Java (Springboot). as I am highly motivated to
-          expand my knowledge base
+          additional proficiency in Java (Springboot). as I am highly motivated
+          to expand my knowledge base
         </p>
       </div>
       <p>
-        <span className="italic">During my leisure time away from coding, </span>
-                      I find enjoyment in playing video games and watching movies.
+        <span className="italic">
+          During my leisure time away from coding,{" "}
+        </span>
+        I find enjoyment in playing video games and watching movies.
         <span className="italic">
           {" "}
-          Additionally, I frequently engage with tutorial videos on YouTube, 
-          particularly those related to coding and programming. 
+          Additionally, I frequently engage with tutorial videos on YouTube,
+          particularly those related to coding and programming.
         </span>
-        These tutorials serve as invaluable references, 
-        aiding me in resolving potential coding challenges I may encounter in the future.
+        These tutorials serve as invaluable references, aiding me in resolving
+        potential coding challenges I may encounter in the future.
       </p>
-
     </motion.section>
   );
 }
