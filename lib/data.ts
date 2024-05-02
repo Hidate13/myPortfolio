@@ -107,7 +107,7 @@ export const projectsData = [
   {
     title: "Marry Meal",
     description:
-      "I spearheaded the development of a meal delivery program named ''Marry Meal.'' This website facilitates seamless online ordering of food and drinks (meal on wheels) alongside a donation system.",
+      " ''Marry Meal'' is an online platform dedicated to meal delivery services. It enables users to conveniently order food and drinks (meal on Wheels) online, while also incorporating a donation system.",
     tags: ["React", "Next.js", "Spring Boot"],
     imageUrl: MarryMealImg,
     projLink: "https://github.com/Hidate13/marrymeal",
@@ -115,7 +115,7 @@ export const projectsData = [
   {
     title: "Dobu Martial Art",
     description:
-      "Dobu Martial Art is a website specifically crafted to streamline registration, training, and competition management processes. One of its standout features is its advanced filtering capabilities, enhancing user experience and efficiency.",
+      " ''Dobu Martial'' Art is a website specifically crafted to streamline registration, training, and competition management processes. One of its standout features is its advanced filtering capabilities, enhancing user experience and efficiency.",
     tags: ["HTML", "Javascript", "CSS"],
     imageUrl: DobuImg,
     projLink: "https://github.com/Hidate13/dobu",
@@ -123,7 +123,7 @@ export const projectsData = [
   {
     title: "Jumpstart Aceadora",
     description:
-      "Jumpstart Aceadora is a website tailored for registration and content management system purposes. As the full-stack developer, I oversaw its development. Notably, the platform offers functionalities such as an intuitive 'Add to Cart' feature for managing items.",
+      " ''Jumpstart Aceadora'' is a website tailored for registration and content management system purposes. As the full-stack developer, I oversaw its development. Notably, the platform offers functionalities such as an intuitive 'Add to Cart' feature for managing items.",
     tags: ["HTML", "Javascript", "CSS", "Spring Boot"],
     imageUrl: Aceadora,
     projLink: "https://github.com/Hidate13/CPL-Source-Code-E-Commerce",
@@ -131,7 +131,7 @@ export const projectsData = [
   {
     title: "Manazanque",
     description:
-      "Manzanque is a comprehensive website designed for helpdesk ticketing management. As the full-stack developer, I spearheaded its development. Key features of the platform include the ability to create tickets and effectively manage helpdesk records.",
+      " ''Manzanque'' is a comprehensive website designed for helpdesk ticketing management. As the full-stack developer, I spearheaded its development. Key features of the platform include the ability to create tickets and effectively manage helpdesk records.",
     tags: ["HTML", "React.js", "Javascript", "CSS", "Spring Boot"],
     imageUrl: Manzanaque,
     projLink: "https://github.com/Hidate13/manzanque",
