@@ -107,7 +107,7 @@ export const projectsData = [
   {
     title: "Marry Meal",
     description:
-      "Upon joining the bootcamp training program, I undertook the development of a meal delivery program called ''Marry Meal.'' This website facilitates online ordering of food and drinks (meal on wheels) as well as a donation system.",
+      "I spearheaded the development of a meal delivery program named ''Marry Meal.'' This website facilitates seamless online ordering of food and drinks (meal on wheels) alongside a donation system.",
     tags: ["React", "Next.js", "Spring Boot"],
     imageUrl: MarryMealImg,
     projLink: "https://github.com/Hidate13/marrymeal",
