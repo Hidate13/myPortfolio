@@ -33,13 +33,13 @@ export default function Contact() {
 
       <p className="text-gray-700 -mt-6 dark:text-white/80 text-left ml-40">
         For direct connections or further inquiries, please contact me through these channels:
-        <ul className="list-disc list-inside align-text-left">
-          <li>Full Name: WAHYU HIDAYAT</li>
-          <li>🙎‍♂️ Email Address: <a className="underline" href="mailto:wahyu.hidate.hidayat@gmail.com">wahyu.hidate.hidayat@gmail.com</a></li>
-          <li>📞 WA Number: <a className="underline" href="https://wa.me/6283111188502">+6283111188502</a></li>
-          <li>🤝 LinkedIn Profile: <a className="underline" href="https://www.linkedin.com/in/wahyu-hidayat-1a7258274/">Wahyu Hidayat in LinkedIn</a></li>
-          <li>🗺 Location:  Surabaya City, Indonesia</li>
-        </ul >
+        <div className="align-text-left">
+          <p>🙎‍♂️Full Name: WAHYU HIDAYAT</p>
+          <p>📧 Email Address: <a className="underline" href="mailto:wahyu.hidate.hidayat@gmail.com">wahyu.hidate.hidayat@gmail.com</a></p>
+          <p>📞 WA Number: <a className="underline" href="https://wa.me/6283111188502">+6283111188502</a></p>
+          <p>🤝 LinkedIn Profile: <a className="underline" href="https://www.linkedin.com/in/wahyu-hidayat-1a7258274/">Wahyu Hidayat in LinkedIn</a></p>
+          <p>🗺 Location:  Surabaya City, Indonesia</p>
+        </div>
         <br></br>
         Feel free to drop me a message below! Let's connect and make things happen!
       </p>
