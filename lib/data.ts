@@ -60,7 +60,7 @@ export const experiencesData = [
     title: "Lithan's Learner",
     location: "11 Eunos Rd 8, Singapore",
     description:
-      "I decided to switch careers in 2023 by taking courses and programs from Lithan, where I can create several applications while I am undergoing boot camp training.",
+      "Decided to switch careers in 2023 and enrolled in Lithan's bootcamp and Bachelor's Degree programs as a full stack developer, creating several applications during boot camp training.",
     icon: React.createElement(CgWorkAlt),
     date: "2023 - present",
   },
@@ -97,7 +97,7 @@ export const educationData = [
     logo: lithanLogo,
     location: "11 Eunos Rd 8, Singapore",
     description:
-      "I decided to switch careers in 2023 by taking courses **(Bootcamp)** and **(Bachelor's Degree)** programs from Lithan as **a full stack developer**.\n where I can create several applications while I am undergoing boot camp training.",
+      "Decided to switch careers in 2023 and enrolled in Lithan's bootcamp and Bachelor's Degree programs as a full stack developer, creating several applications during boot camp training.",
     icon: React.createElement(CgWorkAlt),
     date: "2023 - present",
   },
@@ -107,7 +107,7 @@ export const projectsData = [
   {
     title: "Marry Meal",
     description:
-      "Upon joining the bootcamp training program, I developed a meal delivery program named ''Marry Meal''.",
+      "Upon joining the bootcamp training program, I undertook the development of a meal delivery program called ''Marry Meal.'' This website facilitates online ordering of food and drinks (meal on wheels) as well as a donation system.",
     tags: ["React", "Next.js", "Spring Boot"],
     imageUrl: MarryMealImg,
     projLink: "https://github.com/Hidate13/marrymeal",
@@ -115,7 +115,7 @@ export const projectsData = [
   {
     title: "Dobu Martial Art",
     description:
-      "I served as the front-end developer for Dobu Martial Art, a website designed to facilitate registration, training, and competition management. Notably, the platform boasts features such as advanced filtering capabilities.",
+      "Dobu Martial Art is a website specifically crafted to streamline registration, training, and competition management processes. One of its standout features is its advanced filtering capabilities, enhancing user experience and efficiency.",
     tags: ["HTML", "Javascript", "CSS"],
     imageUrl: DobuImg,
     projLink: "https://github.com/Hidate13/dobu",
@@ -123,7 +123,7 @@ export const projectsData = [
   {
     title: "Jumpstart Aceadora",
     description:
-      "Jumpstart Aceadora is a website tailored for registration and content management system purposes. As the full-stack developer, I oversaw its development. Notably, the platform offers functionalities such as an intuitive 'Add to Cart' feature for managing items..",
+      "Jumpstart Aceadora is a website tailored for registration and content management system purposes. As the full-stack developer, I oversaw its development. Notably, the platform offers functionalities such as an intuitive 'Add to Cart' feature for managing items.",
     tags: ["HTML", "Javascript", "CSS", "Spring Boot"],
     imageUrl: Aceadora,
     projLink: "https://github.com/Hidate13/CPL-Source-Code-E-Commerce",
