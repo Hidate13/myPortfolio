@@ -57,7 +57,7 @@ export default function About() {
           coding bootcamp journey to maste{" "}
           <span className="font-medium">full-stack web development</span>. I
           find particular enjoyment in
-          <span className="italic">
+          <span className="font-medium">
             {" "}
             the problem-solving facets of programming.
           </span>{" "}
@@ -68,11 +68,7 @@ export default function About() {
         </p>
       </div>
       <p>
-        <span className="italic">
-          During my leisure time away from coding,{" "}
-        </span>
-        I find enjoyment in playing video games and watching movies.
-        <span className="italic">
+        <span className="font-medium">
           {" "}
           Additionally, I frequently engage with tutorial videos on YouTube,
           particularly those related to coding and programming.

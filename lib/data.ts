@@ -83,7 +83,7 @@ export const educationData = [
     icon: React.createElement(FaReact),
     date: "2004 - 2007",
   }, */
-  {
+  /* {
     title: "MAN Amlapura ",
     logo :manLogo,
     location: "Bali, Indonesia",
@@ -91,15 +91,14 @@ export const educationData = [
       "Throughout my high school years, my academic emphasis centered on science, as I enthusiastically participated in diverse scientific subjects and activities.",
     icon: React.createElement(FaReact),
     date: "2007 - 2010 ",
-  },
+  }, */
   {
-    title: "Lithan Academy",
+    title: "Lithan's Learner",
     logo: lithanLogo,
-    location: "11 Eunos Rd 8, Singapore",
-    description:
-      "Decided to switch careers in 2023 and enrolled in Lithan's bootcamp and Bachelor's Degree programs as a full stack developer, creating several applications during boot camp training.",
+    location: "MAJOR - COMPUTER SIENCE",
+    description: "Bachelor's Degree programs.",
     icon: React.createElement(CgWorkAlt),
-    date: "2023 - present",
+    date: "March 2023 - present",
   },
 ] as const;
 
@@ -150,8 +149,7 @@ export const skillsData = [
 export const softSkillsData = [
   { name: "Research", icon: HTML },
   { name: "Problem Solving", icon: CSS },
-  { name: "Reading", icon: REactIC },
   { name: "Programming", icon: NodeIC },
-  { name: "Movie", icon: TailWiC },
+  { name: "Video Editing", icon: TailWiC },
   { name: "Designing", icon: SpringBIC },
 ] as const;
