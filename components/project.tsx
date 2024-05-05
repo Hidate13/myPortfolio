@@ -66,7 +66,13 @@ export default function Project({
             </ul>
             <br />
             <div onClick={() => openModalWithImages(imageUrl.src)}>
-              <h1 className="image-detail dark:text-white" style={{ textAlign:'center' }}>Click Demo Here !</h1>
+              <a href={imageUrl.src.includes("marrymeal") ? "https://marrymeal-production.up.railway.app/" :
+                      imageUrl.src.includes("aceadora") ? "https://cpl-source-code-e-commerce-production.up.railway.app/" :
+                      imageUrl.src.includes("manzanaque") ? "https://manzanaque-full.vercel.app/" :
+                      imageUrl.src.includes("dobu") ? "https://dobu-kappa.vercel.app/" : "#"
+                    } target="_blank" rel="noopener noreferrer">
+                <h1 className="image-detail dark:text-white" style={{ textAlign:'center' }}>Click Demo Here !</h1>
+              </a>
             </div>
             <br />
             <div className="px-8 text-sm">
