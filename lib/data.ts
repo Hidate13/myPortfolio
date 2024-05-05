@@ -110,6 +110,7 @@ export const projectsData = [
     tags: ["React", "Next.js", "Spring Boot"],
     imageUrl: MarryMealImg,
     projLink: "https://github.com/Hidate13/marrymeal",
+    demoLink: "https://marrymeal-production.up.railway.app",
   },
   {
     title: "Dobu Martial Art",
@@ -118,6 +119,7 @@ export const projectsData = [
     tags: ["HTML", "Javascript", "CSS"],
     imageUrl: DobuImg,
     projLink: "https://github.com/Hidate13/dobu",
+    demoLink: "https://dobu-kappa.vercel.app",
   },
   {
     title: "Jumpstart Aceadora",
@@ -126,6 +128,7 @@ export const projectsData = [
     tags: ["HTML", "Javascript", "CSS", "Spring Boot"],
     imageUrl: Aceadora,
     projLink: "https://github.com/Hidate13/CPL-Source-Code-E-Commerce",
+    demoLink: "https://cpl-source-code-e-commerce-production.up.railway.app",
   },
   {
     title: "Manazanque",
@@ -134,6 +137,7 @@ export const projectsData = [
     tags: ["HTML", "React.js", "Javascript", "CSS", "Spring Boot"],
     imageUrl: Manzanaque,
     projLink: "https://github.com/Hidate13/manzanque",
+    demoLink: "https://manzanaque-full.vercel.app",
   },
 ] as const;
 

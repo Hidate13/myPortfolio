@@ -17,6 +17,7 @@ export default function Project({
   tags,
   imageUrl,
   projLink,
+  demoLink,
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -65,14 +66,8 @@ export default function Project({
               ))}
             </ul>
             <br />
-            <div onClick={() => openModalWithImages(imageUrl.src)}>
-              <a href={imageUrl.src.includes("marrymeal") ? "https://marrymeal-production.up.railway.app/" :
-                      imageUrl.src.includes("aceadora") ? "https://cpl-source-code-e-commerce-production.up.railway.app/" :
-                      imageUrl.src.includes("manzanaque") ? "https://manzanaque-full.vercel.app/" :
-                      imageUrl.src.includes("dobu") ? "https://dobu-kappa.vercel.app/" : "#"
-                    } target="_blank" rel="noopener noreferrer">
-                <h1 className="image-detail dark:text-white" style={{ textAlign:'center' }}>Click Demo Here !</h1>
-              </a>
+            <div style={{ textAlign: 'center' }}>
+              <a href={demoLink} className="image-detail dark:text-white" style={{ cursor: 'pointer' }}>Click Demo Here !</a>
             </div>
             <br />
             <div className="px-8 text-sm">
