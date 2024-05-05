@@ -74,13 +74,23 @@ const ImageSliderModal: React.FC<ImageSliderModalProps> = ({
     { url: "http://localhost:3000/projectImages/manzanaque/image-5.jpg", title: "Registration" },
   ];
 
+  //thi is for select the links
+  const selectSlides = () => {
+    if (imageSetName?.includes("MarryMeal")) return "https://marrymeal-production.up.railway.app/";
+    else if (imageSetName?.includes("Dobu")) return "https://dobu-kappa.vercel.app/";
+    else if (imageSetName?.includes("Aceadora")) return "https://cpl-source-code-e-commerce-production.up.railway.app/";
+    else if (imageSetName?.includes("Manzanaque")) return "https://manzanaque-full.vercel.app/";
+    else return [];
+  };
+
+  /*  this is for select slides (images)
   const selectSlides = () => {
     if (imageSetName?.includes("MarryMeal")) return marrymeal;
     else if (imageSetName?.includes("Dobu")) return dobu;
     else if (imageSetName?.includes("Aceadora")) return aceadora;
     else if (imageSetName?.includes("Manzanaque")) return manzanaque;
     else return [];
-  };
+  }; */
 
   return (
     <Modal

@@ -66,7 +66,7 @@ export default function Project({
             </ul>
             <br />
             <div onClick={() => openModalWithImages(imageUrl.src)}>
-              <h1 className="image-detail dark:text-white" style={{ textAlign:'center' }}>Click Detail Here !</h1>
+              <h1 className="image-detail dark:text-white" style={{ textAlign:'center' }}>Click Demo Here !</h1>
             </div>
             <br />
             <div className="px-8 text-sm">
@@ -75,7 +75,7 @@ export default function Project({
                 href={projLink}
                 download
               >
-                Download{" "}
+                Source Code{" "}
                 <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
               </a>
             </div>
