@@ -6,6 +6,7 @@ import DobuImg from "@/public/Dobu.png";
 import HTML from "@/public/icon/html.png";
 import Aceadora from "@/public/Aceadora.png";
 import Manzanaque from "@/public/Manzanaque.png";
+import LiTravel from "@/public/li-travel.png";
 import CSS from "@/public/icon/css.png";
 import NodeIC from "@/public/icon/node.png";
 import SpringBIC from "@/public/icon/springboot.png";
@@ -138,6 +139,15 @@ export const projectsData = [
     imageUrl: Manzanaque,
     projLink: "https://github.com/Hidate13/manzanque",
     demoLink: "https://manzanaque-full.vercel.app",
+  },
+  {
+    title: "Li-Travel",
+    description:
+      " 'Li-Travel' is a comprehensive website designed for Travel Tour. Key features of the platform include the Recomendation Activities, featured packag and trip types .",
+    tags: ["wordpress", "WPForm", "yoastSEO", "Monsterinsight"],
+    imageUrl: LiTravel,
+    projLink: "https://dev-li-travel.pantheonsite.io/",
+    demoLink: "https://dev-li-travel.pantheonsite.io/",
   },
 ] as const;
 
