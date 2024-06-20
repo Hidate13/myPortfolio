@@ -143,7 +143,7 @@ export const projectsData = [
   {
     title: "Li-Travel",
     description:
-      " 'Li-Travel' is a comprehensive website designed for Travel Tour. Key features of the platform include the Recomendation Activities, featured packag and trip types .",
+      " 'Li-Travel' is a professional and comprehensive website designed for travel and tours. The platform's key features include recommended activities, highlighted packages, and various trip types.",
     tags: ["wordpress", "WPForm", "yoastSEO", "Monsterinsight"],
     imageUrl: LiTravel,
     projLink: "https://dev-li-travel.pantheonsite.io/",
