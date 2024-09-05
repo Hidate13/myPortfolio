@@ -111,7 +111,7 @@ export const projectsData = [
     tags: ["React", "Next.js", "Spring Boot"],
     imageUrl: MarryMealImg,
     projLink: "https://github.com/Hidate13/marrymeal",
-    demoLink: "https://marrymeal-production.up.railway.app",
+    demoLink: "https://marrymeal-fredia-wayz-1c1ae10f.koyeb.app/welcome",
   },
   {
     title: "Dobu Martial Art",
